@@ -52,8 +52,8 @@ La v5 nasce come convergenza di quattro cicli evolutivi:
 
 ## Stato corrente del repository
 
-- Applicazione principale: `/tmp/workspace/mat635418/TurboISEE/app.py`
-- Dipendenze Python: `/tmp/workspace/mat635418/TurboISEE/requirements.txt`
+- Applicazione principale: `app.py`
+- Dipendenze Python: `requirements.txt`
 
 Il codice attuale rappresenta una base funzionale utile per demo e validazione concettuale, con spazio di crescita su robustezza enterprise, controlli qualità dati e automazione operativa.
 
@@ -66,7 +66,7 @@ Prerequisiti:
 - pip aggiornato
 
 ```bash
-cd /tmp/workspace/mat635418/TurboISEE
+cd <project_root>
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install --upgrade pip
@@ -78,7 +78,7 @@ pip install -r requirements.txt
 ## Avvio applicazione
 
 ```bash
-cd /tmp/workspace/mat635418/TurboISEE
+cd <project_root>
 streamlit run app.py
 ```
 
